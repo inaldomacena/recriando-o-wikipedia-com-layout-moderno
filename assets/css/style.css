@@ -108,7 +108,7 @@ span > button {
 
 .menu {
   position: relative;
-  /*display: block;*/
+  
 }
 .menu > ul {
   list-style-type: none;
@@ -205,9 +205,12 @@ cursor: pointer;
     list-style-type:square;
     padding-left: 50px;
     
+    
 }
 .listamenu >li > a {
     color:rgb(133, 51, 158);
+    
+    font-size: 20px;
 }
 
 .redessociais > a >  i{
