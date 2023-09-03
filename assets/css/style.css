@@ -83,9 +83,12 @@ figure {
 span {
   position: absolute;
   padding-left: 20px;
-  
-  margin: 10px;
   padding-top: 20px;
+  margin: 10px;
+
+
+
+
 
 }
 span > button {
@@ -94,28 +97,13 @@ span > button {
   
   
 }
-span > .link1 {
-    position:absolute;
-    margin-left: 200px;
-    
-    
-    color:#0000ff;
-  }
-span > .link2 {
-    position:absolute;
-    margin-left: 290px;
-    color: #0000ff;
-    
-    
 
-  }
 
 .header {
   position: relative;
   padding: 5px;
   margin-top: 20px;
   margin-left: 0px;
-
   margin-bottom: 2px;
   
 }
@@ -171,25 +159,53 @@ span > .link2 {
 .menu {
   display: block;
 }
-.button {
+#buttonpesquisar {
   padding: 5px;
   background-color: rgb(84, 206, 27);
   color: black;
-  border: 1px solid;
+  border: 1px solid rgb(84, 206, 27);
   border-radius: 10px;
-  height: 35px;
+  height: 43px;
+  width: 88px;
+  
 }
-.button:hover{
-      background-color: #690488;
+#buttonpesquisar:hover{
+      background-color: #cf51f5;
       opacity: 0.5;
       color: #f1f1f1;
       cursor: pointer;
 }
-.search {
-  border: 1px solid;
-  padding: 10px;
-  width: 500px;
+
+#buttoncadastro1,
+#buttoncadastro2{
+background-color: rgb(240, 236, 9);
+color: black;
+border: 1px solid rgb(240, 236, 9);
+border-radius: 10px;
+height: 43px;
+width: 78px;
+position:absolute;
+margin-left: 850px;
 }
+#buttoncadastro2{
+  margin-left: 940px;
+  width: 100px;
+}
+
+#buttoncadastro1:hover,
+#buttoncadastro2:hover{
+background-color: #0781e6;
+opacity: 0.5;
+color: #ffffff;
+cursor: pointer;
+}
+
+.search {
+  border: 1px solid #a6c0cf;
+  padding: 10px;
+  width: 400px;
+}
+
 .listamenu{
     list-style-type:square;
     padding-left: 50px;
@@ -200,7 +216,7 @@ span > .link2 {
 }
 
 .redessociais > a >  i{
-     font-size: 40px;
+    font-size: 40px;
     width: 40px;
     height: 40px;
     background-image: linear-gradient(180deg, #76cc06, #cff10b);
