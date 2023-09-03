@@ -41,11 +41,7 @@ a {
   
 }
 
-main,
-.sidebar,
-.anchors{
-    
-}
+
 
 
 
@@ -126,19 +122,8 @@ span > button {
   display: block;
 }
 
-.header > .menu > #itens {
-  color: #000000;
-  padding-top: 10px;
-  padding-left: 10px;
 
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.header > .menu > #itens:hover {
-  color: #e90c0c;
-  cursor: pointer;
-  
-}
+
 .logo {
   padding-top: 0px;
   padding-left: 100px;
