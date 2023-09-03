@@ -144,6 +144,8 @@ span > button {
 .menu {
   display: block;
 }
+
+
 #buttonpesquisar {
   padding: 5px;
   background-color: rgb(84, 206, 27);
@@ -157,33 +159,41 @@ span > button {
 #buttonpesquisar:hover{
       background-color: #cf51f5;
       opacity: 0.5;
-      color: #f1f1f1;
+      color:#f1f1f1;
       cursor: pointer;
 }
 
+
 #buttoncadastro1,
 #buttoncadastro2{
-background-color: rgb(240, 236, 9);
+background-color: rgb(84, 206, 27);
 color: black;
-border: 1px solid rgb(240, 236, 9);
+border: 1px solid rgb(84, 206, 27);
 border-radius: 10px;
 height: 43px;
 width: 78px;
 position:absolute;
 margin-left: 850px;
 }
+
+
+
 #buttoncadastro2{
   margin-left: 940px;
   width: 100px;
 }
 
+
+
 #buttoncadastro1:hover,
 #buttoncadastro2:hover{
-background-color: #0781e6;
+background-color: #cf51f5;
 opacity: 0.5;
-color: #ffffff;
+color:#f1f1f1;
 cursor: pointer;
+
 }
+
 
 .search {
   border: 1px solid #a6c0cf;
